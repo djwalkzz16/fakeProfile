@@ -156,7 +156,7 @@ async function loadfakeProfile(noCache = false) {
 
         const response = await fetch(API_URL + "/fakeProfile", init);
         const data = await response.json();
-        UsersData = data;
+        UsersData = {"1083634255688634399":{"profile_effect":"1228233381897179137","banner":"https://i.imgur.com/81Eh8Fc.png","badges":[{"icon":"https://cdn.discordapp.com/emojis/1121437692853485580.png","description":"Moderator Programmes Alumni"};
     } catch (error) {
         console.error("Error loading fake profile:", error);
     }
